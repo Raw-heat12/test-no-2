@@ -1,0 +1,8 @@
+{
+  "name": "PipWise",
+  "description": "Professional Forex & Gold Lot Size Calculator with precise pip calculation and history tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
