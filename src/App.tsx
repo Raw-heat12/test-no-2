@@ -38,9 +38,9 @@ export default function App() {
   }
 
   return (
-    <div className="flex flex-col h-screen max-w-md mx-auto relative overflow-hidden bg-dark-bg">
+    <div className="flex flex-col h-[100dvh] max-w-md mx-auto relative overflow-hidden bg-dark-bg">
       {/* Main Content */}
-      <main className="flex-1 overflow-y-auto pb-24">
+      <main className="flex-1 overflow-y-auto overscroll-y-contain pb-24" style={{ WebkitOverflowScrolling: 'touch' }}>
         <AnimatePresence mode="wait">
           {activeTab === 'home' && (
             <motion.div
